@@ -116,16 +116,28 @@ body {
 /* Hero */
 .hero {
   padding: 188px 0;
-  background: var(--navy-blue-color);
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7),
+   ),
+   url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
   text-align: center;
+  background: var(--navy-blue-color);
 }
 .main-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin-bottom: 48px;
+  margin: 0 auto;
   max-width: 496px;
+  margin-bottom: 48px;
   text-align: center;
   color: var(--background-color);
 }
@@ -217,7 +229,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 32px;
   margin-bottom: 8px;
   color: var(--navy-blue-color);
 }
@@ -240,11 +251,10 @@ body {
   background: var(--navy-blue-color);
 }
 .footer-text {
+  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 17.5px;
-  margin-bottom: 100px;
   color: var(--cloud-color);
 }
 .logo-footer {
@@ -254,9 +264,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
   margin-bottom: 16px;
-  padding: 24px 0;
   display: inline-block; 
   color: var(--iris-color);
 }
@@ -273,7 +281,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 32px;
   margin-bottom: 8px;
   color: var(--navy-blue-color);
 }
@@ -316,7 +323,6 @@ body {
   padding: 32px 16px;
   border: 1px solid var(--cornflower-color);
   border-top: none;
-  margin-bottom: 8px;
 }
 .portfolio-text-img {
   font-size: 16px;
