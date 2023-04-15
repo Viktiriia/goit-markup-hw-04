@@ -97,7 +97,6 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--ocean-color);
-  border-bottom: 2px solid var(--ocean-color);
 }
 .addres {
   margin-left: auto;
