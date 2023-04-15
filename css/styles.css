@@ -301,7 +301,7 @@ body {
   height: 88px;
   border: 1px solid var(--light-slate-color);
   border-radius: 4px;
-  color: #afb1b8;
+  color: var(--light-slate-color);
 }
 .clients-link:hover,
 .clients-link:focus {
